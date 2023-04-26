@@ -1,0 +1,26 @@
+body {
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+h1 {
+    color: yellow;
+}
+
+p {
+    color: blueviolet;
+}
+
+.texto {
+    color: white;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+#encabezado {
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-size: 32px;
+}
