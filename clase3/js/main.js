@@ -205,30 +205,22 @@ switch(mesIngresado) {
 console.log("Mes: " + mes); //febrero
 console.log("Dias: " + dias); //28
 
-salida = "Mes Seleccionado: " + mes + "\n\n"; // Mes Seleccionado: Febrero
-salida += "L    M    M    J    V    S    D\n";
+salida += "Mes Seleccionado: " + mes + "\n\n"; // Mes Seleccionado: Febrero
+salida += "LU MA MI JU VI SA DO\n";
 
 for (let i=1; i<=dias; i++) {
     if (i < 10) {
-        salida += "  " + i + "  ";
-    } else {
-        salida += i + "  ";
+        salida += "0";
     }
+    
+    salida += i;
 
     if (i%7 == 0) {
         salida += "\n";
+        continue;
     }
+    
+    salida += "  ";
 }
 
 alert(salida);
-
-
-
-
-
-
-
-
-
-
-
