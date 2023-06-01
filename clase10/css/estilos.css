@@ -1,0 +1,9 @@
+.miEstilo {
+    color: white;
+    background-color: pink;
+    padding: 20px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: center;
+}
