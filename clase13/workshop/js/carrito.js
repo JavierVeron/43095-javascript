@@ -15,8 +15,7 @@ function renderProductos() {
             <td class="align-middle">${producto.nombre}</td>
             <td class="align-middle"><b>$${producto.precio}</b></td>
             <td class="align-middle text-end"><img src="images/trash3.svg" alt="Eliminar Producto" title="Eliminar Producto" width="24" onclick="eliminarProducto(${producto.id});"></td>
-            </tr>
-            </div>`;
+            </tr>`;
         });
 
         contenido += `<tr>

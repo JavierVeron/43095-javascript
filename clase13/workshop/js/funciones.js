@@ -55,6 +55,12 @@ function sumaTotalProductos() {
     return carrito.reduce((acumulador, item) => acumulador += item.precio, 0);
 }
 
+function verProducto(id) {
+    const producto = buscarProducto(id);
+    localStorage.setItem("producto", JSON.stringify(producto));
+    //location.href = "ver-producto.html"; //Redireccionar a la página pasada por parámetro
+}
+
 function renderBotonCarrito() {
     let botonCarrito = document.getElementById("botonCarrito");
     let contenido = `<button type="button" class="btn bg-light position-relative">
